@@ -1,3 +1,5 @@
+scalar Long
+
 type Query {
   propertyCount: Int @cypher(statement: "MATCH (p:Property) RETURN COUNT(p)")
   cityValue: [CityValue]
