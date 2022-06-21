@@ -10,6 +10,8 @@ node_modules/
 build/
 
 # misc
+data/
+grandEnv/
 .DS_Store
 .env
 .env.local
